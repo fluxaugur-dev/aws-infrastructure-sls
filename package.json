@@ -2,7 +2,11 @@
   "name": "aws-infrastructure-sls",
   "version": "0.0.0",
   "description": "Set up AWS infrastructure using Serverless Framework",
-  "dependencies": {},
+  "dependencies": {
+    "-": "0.0.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
@@ -11,8 +15,12 @@
     "@semantic-release/npm": "^7.0.6",
     "@semantic-release/release-notes-generator": "^9.0.1",
     "@serverless/eslint-config": "^3.0.0",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
     "git-list-updated": "^1.2.1",
     "prettier": "^2.1.2"
   },
@@ -51,9 +59,5 @@
     "package.json",
     "package-lock.json",
     "README.md"
-  ],
-  "eslintConfig": {
-    "extends": "@serverless/eslint-config/node",
-    "root": true
-  }
+  ]
 }
